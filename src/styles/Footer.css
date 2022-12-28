@@ -1,0 +1,46 @@
+footer {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+#light footer {
+    border-top: solid 1px #9e9e9e33;
+    background-color: white;
+    color: black;
+}
+
+#dark footer {
+    background-color: #242526;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.4s;
+}
+
+#light footer ul a {
+    color: black;
+}
+
+#dark footer ul a {
+    color: white;
+}
+
+footer ul a:hover {
+    color: red!important;
+}

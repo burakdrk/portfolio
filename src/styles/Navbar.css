@@ -1,0 +1,134 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    z-index: 200;
+    top: 0;
+    padding: 10px 40px;
+    height: 3rem;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+
+#light .navbar {
+    background-color: white;
+}
+
+#dark .navbar {
+    background-color: #242526;
+}
+
+.navbar_inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar_item {
+    align-items: center;
+    display: flex;
+}
+
+.navbar_item a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 5px 10px 5px 10px;
+}
+
+#dark .navbar_item a {
+    color: white;
+}
+
+#light .navbar_item a {
+    color: black;
+}
+
+.navbar_item svg {
+    padding: 5px 10px 5px 10px;
+}
+
+.navbar_item a:hover {
+    color: red!important;
+}
+
+.navbar_logo a {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.hamburger_button {
+    display: none;
+}
+
+.hamburger_button button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    display: flex;
+}
+
+#light .hamburger_button button {
+    color: black;
+}
+
+#dark .hamburger_button button {
+    color: white;
+}
+
+.hamburger_button svg {
+    font-size: 30px;
+}
+
+#open.navbar {
+    height: 100vh;
+}
+
+#closed .navbar_mobile {
+    display: none;
+}
+
+.navbar_mobile {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: 0.5s;
+    justify-content: center;
+}
+
+.navbar_mobile > a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 1.75rem;
+    padding: 5px 10px 5px 10px;
+}
+
+#dark .navbar_mobile > a {
+    color: white;
+}
+
+#light .navbar_mobile > a {
+    color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    .hamburger_button {
+        display: flex;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+        flex-direction: column;
+        transition: 0.3s;
+    }
+
+    .navbar_routes > a {
+        display:none;
+    }
+
+    .navbar_mobile_wrapper {
+        margin-top:calc(50% + 3rem);
+    }
+}
