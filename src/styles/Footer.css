@@ -40,7 +40,3 @@ footer ul a {
 #dark footer ul a {
     color: white;
 }
-
-footer ul a:hover {
-    color: red!important;
-}

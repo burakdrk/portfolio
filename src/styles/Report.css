@@ -5,3 +5,13 @@
 .reports p {
     font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 480px) {
+    .reports h2 {
+        font-size: 1.3rem;
+    }
+
+    .reports p {
+        font-size: 1.1rem;
+    }
+}

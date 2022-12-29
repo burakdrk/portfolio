@@ -46,8 +46,28 @@
     padding: 5px 10px 5px 10px;
 }
 
+.navbar_logo a {
+    border-radius: 2rem;
+}
+
+#light .navbar_logo a {
+    background: #d5d5d57a;
+}
+
+#dark .navbar_logo a {
+    background: #ffffff12;
+}
+
 .navbar_item a:hover {
-    color: red!important;
+    border-radius: 2rem;
+}
+
+#light .navbar_item a:hover {
+    background: #d5d5d57a;
+}
+
+#dark .navbar_item a:hover {
+    background: #ffffff12;
 }
 
 .navbar_logo a {

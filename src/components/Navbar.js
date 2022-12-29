@@ -11,7 +11,7 @@ const Navbar = ({theme}) => {
         <div className='navbar' id={expandMenu ? 'open' : 'closed'}>
             <div className='navbar_inner'>
                 <div className='navbar_item navbar_logo'>
-                    <Link to = '/'>Burak Duruk</Link>
+                    <Link to = '/'>B</Link>
                 </div>
                 <div className='navbar_item navbar_routes'>
                     <Link to = '/'>Home</Link>
