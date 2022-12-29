@@ -9,6 +9,14 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
+body:has(div#light) {
+    background-color: white;
+}
+
+body:has(div#dark) {
+    background-color: #1B1B1D;
+}
+
 .App {
     transition: 0.4s;
     display: flex;
