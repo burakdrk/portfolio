@@ -15,7 +15,7 @@ header {
     font-size: 1.2rem;
 }
 
-#home_header {
+#home_header, #reports_header {
     background-image: url('../images/cs-background.png');
     background-size: 130rem;
     background-attachment: fixed;
@@ -25,7 +25,7 @@ header {
     .header_container {
         padding: 0 20px;
     }
-    #home_header {
+    #home_header, #reports_header {
         background-size: 65rem;
     }
 }
