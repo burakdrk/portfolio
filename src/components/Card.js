@@ -14,7 +14,7 @@ const Card = ({title, desc}) => {
                     <h5>{title}</h5>
                     <p>{desc}</p>
                 </div>
-                <Button title={'View'} onClick={() => {window.location.href = '/report/1'}}/>
+                <Button title={'View'} onClick={() => {window.location.href = '/report/2'}}/>
             </div>
         </div>
     );
