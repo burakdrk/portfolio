@@ -15,7 +15,6 @@ const Navbar = ({theme}) => {
                 </div>
                 <div className='navbar_item navbar_routes'>
                     <Link to = '/'>Home</Link>
-                    <Link to = '/report'>Reports</Link>
                     <a href='/resume.pdf' target='_blank' rel='noreferrer'>Resume</a>
                     <DarkModeSwitch checked={theme.isDarkMode} onChange={theme.toggleDarkMode}/>
                     <div className='hamburger_button'>
@@ -28,7 +27,6 @@ const Navbar = ({theme}) => {
             <div className='navbar_mobile_wrapper'>
                 <div className='navbar_mobile'>
                     <a href='/'>Home</a>
-                    <a href='/report'>Reports</a>
                     <a href='/resume.pdf' target='_blank' rel='noreferrer'>Resume</a>
                 </div>
             </div>
